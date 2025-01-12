@@ -9,6 +9,7 @@ export type Tool =
   | "defectdojo"
   | "contrast"
   | "checkmarx"
+  | "polaris"
   | "snyk";
 
 /**
@@ -40,5 +41,6 @@ const VALID_TOOLS: Tool[] = [
   "defectdojo",
   "contrast",
   "checkmarx",
+  "polaris",
   "snyk",
 ];
